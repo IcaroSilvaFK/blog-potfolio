@@ -15,8 +15,21 @@ export const GLobalCSS = createGlobalStyle`
     font-family:${({ theme }) => theme.fonts.poppins};
     color: ${({ theme }) => theme.colors.gray[700]};
 
+    scroll-behavior: smooth;
+
   }
 
+
+  body{
+    ::-webkit-scrollbar{
+      background-color: transparent;
+      width: 10px;
+    }
+    ::-webkit-scrollbar-thumb{
+      background: ${({ theme }) => theme.colors.purple[300]};
+      border-radius: 10px;
+    }
+  }
 
   button,input{
     border: 0;

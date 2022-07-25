@@ -4,7 +4,8 @@ export async function getArticles() {
   try {
     const { data } = await api.get('articles', {
       params: {
-        tags: 'javascript,typescript,react,css,nextjs',
+        tags: 'JavaScript, TypeScript, React, Node',
+        state: 'fresh',
       },
     });
 

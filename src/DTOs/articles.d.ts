@@ -1,4 +1,5 @@
 export interface IAticleProps {
+  id: number;
   canonical_url: string;
   created_at: string;
   description: string;

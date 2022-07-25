@@ -1,6 +1,6 @@
 import { transparentize } from 'polished';
 import styled from 'styled-components';
-import { theme } from '../../styles/theme';
+import { theme } from './theme';
 
 export const Container = styled.div`
   display: flex;
